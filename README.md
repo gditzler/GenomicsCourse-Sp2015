@@ -53,11 +53,10 @@ rm -Rf ${HOME}/ShotgunFunctionalizeR/
 rm ShotgunFunctionalizeR_1.2-9.tar.gz
 ```
 
-Then to every Protues script you write that uses R, make sure you all the following variable definition to the script. 
+Then to every Protues script you write that uses R, make sure you add the following variable definition to the script. 
 ```
-R_LIBRARY_PATH=${HOME}/R/x86_64-redhat-linux-gnu-library/3.1/optparse/:${HOME}/R/x86_64-redhat-linux-gnu-library/3.1/getopt/:${HOME}/R/x86_64-redhat-linux-gnu-library/3.1/lattice:${HOME}/R/x86_64-redhat-linux-gnu-library/3.1/permute/:${HOME}/R/x86_64-redhat-linux-gnu-library/3.1/vegan:${HOME}/R/x86_64-redhat-linux-gnu-library/3.1/ShotgunFunctionalizeR:${R_LIBRARY_PATH}
+R_LIBRARY_PATH=/mnt/HA/groups/nsftuesGrp/.local/R/x86_64-redhat-linux-gnu-library/3.1/optparse/:/mnt/HA/groups/nsftuesGrp/.local/R/x86_64-redhat-linux-gnu-library/3.1/getopt/:/mnt/HA/groups/nsftuesGrp/.local/R/x86_64-redhat-linux-gnu-library/3.1/lattice:/mnt/HA/groups/nsftuesGrp/.local/R/R/x86_64-redhat-linux-gnu-library/3.1/permute/:/mnt/HA/groups/nsftuesGrp/.local/R/R/x86_64-redhat-linux-gnu-library/3.1/vegan:/mnt/HA/groups/nsftuesGrp/.local/R/R/x86_64-redhat-linux-gnu-library/3.1/ShotgunFunctionalizeR:${R_LIBRARY_PATH}
 ``` 
 
-
-
+The alternative is to `source bashrc` in the Protues script. 
 
