@@ -1,0 +1,21 @@
+# qiime_config
+# WARNING: DO NOT EDIT OR DELETE Qiime/qiime/support_files/qiime_config
+# To overwrite defaults, copy this file to $HOME/.qiime_config or a full path
+# specified by $QIIME_CONFIG_FP and edit that copy of the file.
+# Find details on this file at http://qiime.org/install/qiime_config.html
+
+cluster_jobs_fp start_parallel_jobs_torque.py
+blastmat_dir  /mnt/HA/groups/nsftuesGrp/.local/data/blast
+blastall_fp	blastall
+pynast_template_alignment_fp  /mnt/HA/groups/nsftuesGrp/.local/data/gg/core_set_aligned.fasta.imputed
+pynast_template_alignment_blastdb
+template_alignment_lanemask_fp  /mnt/HA/groups/nsftuesGrp/.local/data/gg/lanemask_in_1s_and_0s
+jobs_to_start	1
+seconds_to_sleep	2
+temp_dir	/tmp/
+denoiser_min_per_core	50
+topiaryexplorer_project_dir
+torque_queue	friendlyq
+assign_taxonomy_reference_seqs_fp /mnt/HA/groups/nsftuesGrp/.local/data/97_otus.fasta
+assign_taxonomy_id_to_taxonomy_fp /mnt/HA/groups/nsftuesGrp/.local/data/97_otu_taxonomy.txt
+sc_queue	all.q
