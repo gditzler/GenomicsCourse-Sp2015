@@ -13,8 +13,7 @@ module load proteus
 module load sge/univa
 
 # load qiime  
-[gcd34@proteusi01 tests]$ module load qiime/gcc/64/1.8.0
-[gcd34@proteusi01 tests]$ print_qiime_config.py 
+module load qiime/gcc/64/1.8.0
 
 # do something
 print_qiime_config.py
