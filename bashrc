@@ -13,6 +13,13 @@ export PATH=${tues}/.local/bin:${PATH}
 export PATH=${tues}/.local/bin/FastQC:${PATH}
 export PATH=${tues}/.local/lib/python2.7/site-packages/bin/:${PATH}
 export PATH=${tues}/.local/hdf5/bin:${PATH}
+export PATH=${tues}/.local/metaphlan/:${PATH}
+export PATH=${tues}/.local/metaphlan/blastdb/:${PATH}
+export PATH=${tues}/.local/metaphlan/bowtie2db/:${PATH}
+export PATH=${tues}/.local/metaphlan/conversion_scripts/:${PATH}
+export PATH=${tues}/.local/metaphlan/galaxy_module/:${PATH}
+export PATH=${tues}/.local/metaphlan/plotting_scripts/:${PATH}
+export PATH=${tues}/.local/metaphlan/utils/:${PATH}
 
 # set up the extra libraries 
 export LD_LIBRARY_PATH=${tues}/.local/hdf5/lib/:$LD_LIBRARY_PATH

@@ -52,6 +52,8 @@ This is not an exhaustive list.
   - [clearcut](http://www.mothur.org/wiki/Clearcut)
   - [cufflinks](http://cole-trapnell-lab.github.io/cufflinks/)
   - [fasttree](http://www.microbesonline.org/fasttree/)
+  - [hmmer](http://hmmer.janelia.org/)  
+  - [metaphlan](http://huttenhower.sph.harvard.edu/metaphlan)
   - [muscle](http://www.drive5.com/muscle/)
   - [quikr](https://github.com/EESI/quikr)
   - [raxml](http://sco.h-its.org/exelixis/software.html)
