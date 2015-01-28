@@ -14,7 +14,7 @@ We have installed a significant amount of software that is specific to this cour
 module load python/2.7.8
 source /path/to/bashrc
 ``` 
-to every script you submit to the queuing system. 
+to every script you submit to the queuing system unless you are using Qiime. If you're using Qiime then remove the python module line.  
 
 # Software Intstalled 
 
